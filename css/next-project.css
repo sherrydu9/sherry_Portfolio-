@@ -1,0 +1,115 @@
+/* ----------------------------------------------
+ * Next Project Desktop size
+ * ---------------------------------------------- */
+
+.next-project {
+    height: 200px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.next-project h4 {
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: .01em;
+    margin-top: 50%;
+    font-family: 'Merriweather', serif;
+}
+
+.next-project p {
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: .01em;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.next-project-action h4 {
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: .01em;
+    margin-top: 45%;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.next-project-img img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.next-project-img-res img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+@media (min-width: 769px) {
+    .next-project:hover .next-project-img {
+        -moz-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+        transition: .3s;
+    }
+
+    .next-project-img img {
+        width: 80%;
+        margin-top: 0%;
+    }
+
+    .next-project-img-res img {
+        width: 40%;
+        margin-top: 3%;
+    }
+
+    .next-project-action {
+        margin-top: 5em;
+        text-align: right;
+    }
+
+    .next-project-action h4 {
+        margin-top: 15em;
+        font-size: 16px;
+    }
+
+    .next-project-action p {
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: .01em;
+        font-weight: 700;
+    }
+
+    .next-project-title {
+        margin-top: -40px
+    }
+
+    .next-project-action h4 {
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: .01em;
+        margin-top: 20%;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .persona_context {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .next-project-img img {
+        width: 50%;
+        margin: auto 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .next-project-action {
+      margin-top: 3em;
+      width: 50%;
+      text-align: right;
+
+    }
+}

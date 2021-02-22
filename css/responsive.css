@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    #Top_nav {
+        height: 70px;
+        overflow: hidden;
+        text-align: right;
+        display: none;
+    }
+
+    #section03 a {
+        padding-top: 10px !important;
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #Top_nav>ul>a {
+        margin: 22px 0px 22px 105px;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.8em;
+        font-weight: 800;
+    }
+
+    #Top_nav {
+        text-align: left;
+    }
+}
+
+
+
+/* Desktop Layout: 600px to a max of 1140px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 600px) {
+
+    .nav_mobile {
+        display: none;
+    }
+}

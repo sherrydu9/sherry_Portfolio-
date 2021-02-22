@@ -1,0 +1,194 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="Copyright (c) Sherry Du 2019.">
+    <title>Yuxuan Du</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo2.png">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/spacer.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:300,400,700,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Script for smooth scrolling -->
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 2000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="gridContainer clearfix">
+            <div class="header">
+                <div class="header_box">
+                    <div class="logo">
+                        <a class="link header_logo" href="http://sherrydu.net/index.html">
+                            <img src="images/logo1.svg">
+                        </a>
+                        <ul id="menu">
+                            <li><a id="shop" class="menu_link" href="http://sherrydu.net" title="projects">WORK</a></li>
+                            <li><a id="cv" class="menu_link" href="http://sherrydu.net/about.html" title="about">ABOUT</a></li>
+                            <!-- <li><a id="contact" class="menu_link" href="#contact_anchor" title="Get in touch!">CONTACT</a></li> -->
+                        </ul>
+                        <ul id="menu_mobile">
+                            <li><a id="shop2" class="menu_link2" href="http://sherrydu.net" title="projects">WORK</a></li>
+                            <li><a id="cv2" class="menu_link2" href="http://sherrydu.net/about.html" title="about">ABOUT</a></li>
+                            <!-- <li><a id="contact2" class="menu_link2" href="#contact_anchor" title="Get in touch!">CONTACT</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="whitebox"></div>
+    
+    <div class="cover">
+        <div class="area">
+            <p class="header_paragraph_title">
+                Hi there! I’m Sherry Du.
+            </p>
+            <br>
+            <p class="header_paragraph">
+                I am a designer with mixed experience in graphic, print, web, branding and presentation design based in sunny San Francisco, CA. I consider myself not only as a designer but a creative thinker, researcher, and collaborator.
+            </p>
+        </div>
+    </div>
+<!--     <section id="section03" class="demo">
+        <a href="#backfarm_section">
+            <span></span>
+        </a>
+    </section> -->
+    <!-- Backfarm section -->
+    <div class="experience_section" id="backfarm_section">
+        <a class="project-link" href="backfarm.html">
+            <div class="x_holder">
+                <div class="x_inner">
+                    <div class="x_title">Urban Homesteading</div>
+                    <div class="x_subtext">This project is geared around defining one particular need of a specific subculture and creating a system to fulfill it.</div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- Dog tracking App section-->
+    <div class="experience_section" id="app_section">
+        <a class="project-link" href="app.html">
+            <div class="x_holder_app">
+                <div class="x_inner_app">
+                    <div class="x_title">Hi! Meet Puppy App</div>
+                    <div class="x_subtext">
+                        <p>An animal matchmaking application that connects dog lovers and dogs, in order to make dogs, lovers. This is a mobile-first application which optimizes for the mobile experience.
+                            <p>User Name: user0</p>
+                            <p>Password: pass</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- lao rebranding section -->
+    <div class="experience_section" id="res_section">
+        <a class="project-link" href="res.html">
+            <div class="x_holder">
+                <div class="x_inner">
+                    <div class="x_title">Rebranding a Restaurant for Lao</div>
+                    <div class="x_subtext">Created a new brand and set of brand guidelines for a restaurant. This includes mockups of print collateral, advertisements, interactive restaurant experiences, and the restaurant’s website.
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- e-commerce-wudog section-->
+    <div class="experience_section" id="wudog_section">
+        <a class="project-link" href="wudog.html">
+            <div class="x_holder">
+                <div class="x_inner">
+                    <div class="x_title">Running an E-commerce Experience with Wudog</div>
+                    <div class="x_subtext">It started as a creative outlet and turned into something bigger. From designing apparel and building an e-commerce product to managing customer service and dropshipping.
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- Motion section-->
+    <div class="experience_section" id="motion_section">
+        <a class="project-link" href="motion.html">
+            <div class="x_holder_motion">
+                <div class="x_inner">
+                    <div class="x_title">Motion Graphic of HelloBody</div>
+                    <div class="x_subtext">The basic principles of motion graphics using Adobe AfterEffects, which including 3D effects.</div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- Teance section -->
+    <div class="experience_section" id="teance_section">
+        <a class="project-link" href="teance.html">
+            <div class="x_holder">
+                <div class="x_inner">
+                    <div class="x_title">Rebranding of Teance Fine House</div>
+                    <div class="x_subtext">I was a graphic designer at Teance where I was responsible for rebranding and new marketing initiatives.
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="container tp-spc-xl">
+        <!-- tagline section -->
+        <div id="contact_anchor" class="tagline">
+            <section class="cd-intro">
+                <p class="cd-headline clip">
+                    <span>Let's connect</span>
+                </p>
+            </section>
+        </div>
+        <!-- social icons and links-->
+        <div id="social_holder_top">
+            <ul id="social_list">
+                <a href="https://www.linkedin.com/in/sherryyuxuandu/" target="_blank" title="LinkedIn" class="social_image_linkedin">
+                </a>
+                <a href="https://www.instagram.com/yuxuansherry_du/" target="_blank" title="instagram" class="social_image_instagram">
+                </a>
+                <a href="https://www.behance.net/sherrydu9ece6" target="_blank" title="behance" class="social_image_behance">
+                </a>
+                <a href="https://issuu.com/yuxuandu" target="_blank" title="issuu" class="social_image_issuu">
+                </a>
+                <a href="mailto:sherrydu9@gmail.com" target="_blank" title="Email Me!" class="social_image_email">
+                </a>
+            </ul>
+        </div>
+    </div>
+<!-- footer -->
+<div class="footer_box">
+    <div id="divider" class="lightbackground"></div>
+    <div id="footer">
+        <div id="copyright">
+            &copy; 2019 - Designed & Developed by Sherry Du
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript" src="js/retina.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+</body>
+
+</html>
